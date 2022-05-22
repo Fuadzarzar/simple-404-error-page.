@@ -102,16 +102,22 @@ body {
     height: 4.4rem;
     justify-content: center;
     margin-top: 2.3rem;
+    transition: .2s;
     width: 11.7rem;
 }
 
+
+.button:hover {
+    opacity: .8;
+    transition: .2s;
+}
+
 .foo__content {
-    bottom: 0;
+    margin-top: 4rem;
     font-size: 1.2rem;
     font-weight: 600;
     height: 50px;
     left: 0;
-    position:fixed;
     text-align: center;
     width: 100%;
 }
@@ -187,6 +193,10 @@ body {
 }
 
 @media screen and (max-width: 750px) { 
+
+body {
+    padding: 1rem;
+}
 
 .main__content {
     margin-top: 2rem;
