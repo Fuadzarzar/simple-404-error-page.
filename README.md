@@ -6,6 +6,7 @@
 ### 🚧 Hey Human
 
 - Simple 404 error page using HTML and CSS.
+- Live preview [here](http://fznotfound.surge.sh/)
 - Animated
 - Desktop and mobile version.
 
